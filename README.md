@@ -32,3 +32,4 @@
 [[BOJ]1436.영화감독 숌](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/1436.%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%EC%88%8C) <br/>
 [[programmers]lv.1 최소직사각형](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.1/%EC%B5%9C%EC%86%8C%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.js) <br/>
 [[programmers]lv.1 모의고사](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.1/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.js) <br/>
+[[programmers]lv.2 카펫](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.2/%EC%B9%B4%ED%8E%AB.js) <br/>
