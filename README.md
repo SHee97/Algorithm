@@ -24,7 +24,7 @@
 [[BOJ]2447.별찍기-10](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/2447.%EB%B3%84%EC%B0%8D%EA%B8%B010) <br/>
 [[BOJ]11729.하노이탑 이동 순서](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/11729.%ED%95%98%EB%85%B8%EC%9D%B4%ED%83%91%EC%9D%B4%EB%8F%99%EC%88%9C%EC%84%9C) <br/>
 
-## 브루트포스
+## 완전탐색
 [[BOJ]2798.블랙잭](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/2798.%EB%B8%94%EB%9E%99%EC%9E%AD) <br/>
 [[BOJ]2231.분해합](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/2231.%EB%B6%84%ED%95%B4%ED%95%A9) <br/>
 [[BOJ]7568.덩치](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/7568.%EB%8D%A9%EC%B9%98) <br/>
@@ -34,3 +34,11 @@
 [[programmers]lv.1 모의고사](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.1/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.js) <br/>
 [[programmers]lv.2 카펫](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.2/%EC%B9%B4%ED%8E%AB.js) <br/>
 [[JS]Section4](https://github.com/Ok-Cheese/Algorithm/tree/main/JS_Algorithm/section4)
+
+## 그리디
+[[BOJ]11047.동전 0](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/11047.%EB%8F%99%EC%A0%840) <br/>
+[[BOJ]11399.ATM](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/11399.ATM) <br/>
+[[BOJ]1541.잃어버린 괄호](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/1541.%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%EA%B4%84%ED%98%B8) <br/>
+[[BOJ]13305.주유소](https://github.com/Ok-Cheese/Algorithm/tree/main/BOJ/13305.%EC%A3%BC%EC%9C%A0%EC%86%8C) <br/>
+[[programmers]lv.1 체육복](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.1/%EC%B2%B4%EC%9C%A1%EB%B3%B5.js) <br/>
+[[programmers]lv.2 구명보트](https://github.com/Ok-Cheese/Algorithm/blob/main/Programmers/lv.2/%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.js) <br />
