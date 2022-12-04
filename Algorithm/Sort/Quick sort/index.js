@@ -32,8 +32,6 @@ function solution(arr) {
 
     const sorted = devide(arr, left, right);
 
-    console.log(left, right, sorted);
-
     quick(arr, left, sorted - 1);
     quick(arr, sorted + 1, right);
   }
