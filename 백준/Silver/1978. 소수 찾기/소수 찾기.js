@@ -1,34 +1,24 @@
 const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().split('\n');
-
-const cases = Number(input.shift());
-const nums = input[0].split(' ');
+const nums = fs.readFileSync('/dev/stdin')
+    .toString()
+    .trim()
+    .split('\n')[1]
+    .split(' ')
+    .map(Number);
 let answer = 0;
 
-for (let i = 0; i < nums.length; i++) {
-    nums[i] = Number(nums[i]);
-}
-
-for (let i = 0; i < cases; i++) {
-    if (nums[i] <= 1) {
-        continue;
-    } else if (nums[i] === 2 || nums[i] === 3) {
-        answer++;
-        continue;
-    }
+for (let n of nums) {
+    if (n <= 1) continue;
     
-    let passSwitch = false;
-    for (let j = 2; j <= nums[i] / 2; j++) {
-        if (nums[i] % j === 0) {
-            passSwitch = true;
+    let isPrime = true;
+    for (let i = 2; i <= Math.floor(n / 2); i++) {
+        if (n % i === 0) {
+            isPrime = false;
             break;
-        }
+        };
     }
     
-    if (passSwitch === true) {
-        continue;
-    }
-    answer++;
+    if (isPrime) answer++;
 }
 
 console.log(answer);
