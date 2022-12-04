@@ -1,48 +1,29 @@
 const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().split('\n');
+const [m, n] = fs.readFileSync('/dev/stdin').toString().trim().split('\n').map(Number);
+let min = 0;
+let sum = 0;
 
-const min = Number(input[0]);
-const max = Number(input[1]);
-
-let primeMin = max + 1;
-let primeSum = 0;
-let hasPrimeMin = false;
-
-for (let i = min; i < max + 1; i++) {
-    if (i <= 1) {
-        continue;
-    } else if (i === 2 || i === 3) {
-        primeSum += i;
-        if (hasPrimeMin === false) {
-            hasPrimeMin = true;
-            primeMin = i;
-        }
+for (let i = m; i <= n; i++) {
+    if (i === 1) {
         continue;
     }
     
     let isPrime = true;
-    for (let j = 2; j <= i / 2; j++) {
+    for (let j = 2; j * j <= i; j++) {
         if (i % j === 0) {
             isPrime = false;
             break;
         }
     }
     
-    if (isPrime === false) {
-        continue;
-    }
-    if (hasPrimeMin === false) {
-        hasPrimeMin = true;
-        primeMin = i;
-        primeSum += i;
-    } else {
-        primeSum += i;
+    if (isPrime) {
+        sum += i;
+        if (min === 0) min = i;
     }
 }
 
-if (primeSum === 0) {
+if (sum === 0) {
     console.log(-1);
 } else {
-    console.log(primeSum);
-    console.log(primeMin);
+    console.log(`${sum}\n${min}`);
 }
