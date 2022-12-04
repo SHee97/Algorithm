@@ -6,5 +6,6 @@ function solution(numbers) {
         return +(B) - +(A);
     });
     
+    console.log(answer);
     return (BigInt(answer.join(''))).toString();
 }
