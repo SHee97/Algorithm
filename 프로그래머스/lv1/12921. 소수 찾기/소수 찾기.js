@@ -10,8 +10,6 @@ function solution(n) {
         }
     }
     
-    console.log(isPrime);
-    
     const answer = isPrime.reduce((acc, e) => acc + e, 0);
     
     return answer;
